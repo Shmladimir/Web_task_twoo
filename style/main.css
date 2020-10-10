@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'ReemKufi' ;
+    src: url(../fonts/ReemKufi-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'ReenieBeanie' ;
+    src: url(../fonts/ReenieBeanie-Regular.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'ReemKufi';
+    color: white;
+    user-select: none;
+}
+
+
+
+h5{
+    font-size: 19pt;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px 0px;
+    letter-spacing: 0.5pt;
+}
+
+h6{
+    font-size: 14pt;
+    font-weight: 100;
+}
+
+p{
+    font-size: 11pt;
+    font-weight: 100;
+}
+
+div{
+    font-size: 15pt;
+}
+
+body{
+    background-color: #A1A2A7;
+    background-image: url(../images/backgrounds/bg-lines.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
