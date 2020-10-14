@@ -1,13 +1,12 @@
 @font-face{
     font-family: 'ReemKufi' ;
-    src: url(../fonts/ReemKufi-Regular.ttf);
+    src: url(/assets/fonts/ReemKufi-Regular.ttf);
 }
 
 @font-face{
     font-family: 'ReenieBeanie' ;
-    src: url(../fonts/ReenieBeanie-Regular.ttf);
+    src: url(/assets/fonts/ReenieBeanie-Regular.ttf);
 }
-
 *{
     font-family: 'ReemKufi';
     /* color: white; */
@@ -46,60 +45,7 @@ h3{
 
 
 /*TOP NAV*/
-a{
-    text-decoration: none;
-    color: rgb(252, 252, 252);
-    font-weight: 100;
-    font-size: 13pt;
-    letter-spacing: .5pt;
-}
 
-a:hover{
-    transition: 1s;
-}
-
-.top_nav{
-    flex: 0 1 auto;
-    /* padding-right: 50px; */
-   }
-   
-.top_nav{
-  
-    /* margin: auto; */
-    margin-top: 0px;
-}
-
-
-.top_nav>ul{
-    display: flex;
-    flex-flow: row;
-
-}
-.top_nav>ul>li{
-flex: 0 1 auto;
-align-self: center;
-padding:0px  15px;
-font-size: 10pt;
-}
-
-.top_nav>ul>li:nth-of-type(1){
-    margin: 0px 20px;
-}
-
-.nav_hover:hover{
-    font-size: 15pt;
-    transition: 0.5s;
-
-}
-
-.sakhguLogo{
-    display: block;
-    background-image: url(../img/icons/sakhgu_logo.png);
-    width: 80px;
-    height: 80px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 /* MAIN BLOCK */

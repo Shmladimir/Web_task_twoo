@@ -1,0 +1,280 @@
+
+
+.my_page_header,.main_block_my_page{
+    color: white;
+}
+
+
+
+.my_page_header>.top_nav>a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-weight: lighter;
+}
+
+.my_page_header>.top_nav>a:hover{
+    transition: 1s;
+}
+
+h5{
+    font-size: 19pt;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 0.5pt;
+}
+
+h6{
+    font-size: 14pt;
+    font-weight: 100;
+}
+
+p{
+    font-size: 11pt;
+    font-weight: 100;
+}
+
+div{
+    font-size: 15pt;
+}
+
+body{
+    background-color: #A1A2A7;
+    background-image: url(/assets/img/backgrounds/bg-lines.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.my_page_header{
+    background-image: url(/assets/img/backgrounds/bg-top.png);
+    /* height: 100%; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 60px 0;
+
+}
+
+.my_page_header>div:nth-last-child(1){
+    align-content: center;
+}
+
+/*TOP NAV*/
+.my_page_header>.top_nav{
+    flex: 0 1 auto;
+    /* padding-right: 50px; */
+}
+
+.my_page_header>.top_nav{
+    margin: auto;
+    margin-top: 0;
+}
+.my_page_header>.top_nav>ul>li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 10pt;
+}
+
+.my_page_header>.top_nav>ul>li:hover{
+    font-size: 11pt;
+    transition: 0.1s;
+    padding: 9px;
+}
+
+.avatar{
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.avatar>div{
+    flex: 0 1 auto;
+}
+
+.main_foto{
+    display: block;
+    background-image: url(/assets/img/avatar.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.name_web{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+
+}
+.name{
+    font-size: 5em;
+    font-family: 'ReenieBeanie' ;
+    font-weight: 100;
+}
+
+.web{
+    align-self: flex-end;
+    margin-top: -20px;
+    font-weight:100;
+}
+
+/* MAIN BLOCK */
+
+.main_block_my_page{
+    font-family: 'ReemKufi';
+    /* height: 500px; */
+    width: 40%;
+    margin: auto;
+    background-color: #3D5065;
+    opacity: 0.89;
+    padding: 50px 5% 70px 5%;
+}
+
+.hello_block{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.hello_block>div{
+    flex: 0 1 auto;
+}
+
+.hello_block>div>p{
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.what_can_i_block p {
+    margin-top: 10px;
+}
+
+.design{
+    min-height: 80px;
+    margin-bottom: 25px;
+}
+
+.fullStack{
+    min-height: 80px;
+}
+
+.fullStack>div>h6, .fullStack>div>p{
+    text-align: right;
+}
+
+.skills_block>div:nth-of-type(1){
+    float: left;
+}
+
+.skills_block p{
+    margin-top: 10px;
+}
+
+.skills_block{
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.social{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.social>a{
+    margin: 0 5px;
+}
+
+
+.imageFirst{
+    background-image: url(/assets/img/icons/gdpr-white.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+
+}
+
+.designIcon{
+    background-image: url(/assets/img/icons/web-design-wite.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-size: contain;
+    margin-right: 20px;
+}
+
+.fullStackIcon{
+    background-image: url(/assets/img/icons/coding-white.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    float: right;
+    margin-left: 20px;
+}
+
+.psIcon{
+    background-image: url(/assets/img/icons/Ps.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    background-size: contain;
+    margin-right: 20px;
+}
+
+.aiIcon{
+    background-image: url(/assets/img/icons/Ai.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    margin-right: 20px;
+}
+
+.prIcon{
+    background-image: url(/assets/img/icons/Pr.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    margin-right: 20px;
+}
+
+.vk{
+    background-image: url(/assets/img/icons/vk.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
+
+.inst{
+    background-image: url(/assets/img/icons/instagram.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
+
+.email{
+    background-image: url(/assets/img/icons/email.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
