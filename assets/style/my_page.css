@@ -1,5 +1,9 @@
 
 
+.my_page_header{
+    padding-top: 100px;
+}
+
 .my_page_header,.main_block_my_page{
     color: white;
 }
@@ -39,14 +43,15 @@ div{
 }
 
 body{
+    margin-top: 100px;
     background-color: #A1A2A7;
-    background-image: url(/assets/img/backgrounds/bg-lines.png);
+    background-image: url(../img/backgrounds/bg-lines.png);
     background-size: auto;
     background-repeat: no-repeat;
 }
 
 .my_page_header{
-    background-image: url(/assets/img/backgrounds/bg-top.png);
+    background-image: url(../img/backgrounds/bg-top.png);
     /* height: 100%; */
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -96,7 +101,7 @@ body{
 
 .main_foto{
     display: block;
-    background-image: url(/assets/img/avatar.jpg);
+    background-image: url(../img/avatar.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
@@ -156,6 +161,10 @@ body{
     /* margin-top: 20px; */
 }
 
+.what_can_i_block{
+    padding-top: 20px;
+}
+
 .what_can_i_block p {
     margin-top: 10px;
 }
@@ -200,7 +209,7 @@ body{
 
 
 .imageFirst{
-    background-image: url(/assets/img/icons/gdpr-white.png);
+    background-image: url(../img/icons/gdpr-white.png);
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
@@ -209,7 +218,7 @@ body{
 }
 
 .designIcon{
-    background-image: url(/assets/img/icons/web-design-wite.png);
+    background-image: url(../img/icons/web-design-wite.png);
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -219,7 +228,7 @@ body{
 }
 
 .fullStackIcon{
-    background-image: url(/assets/img/icons/coding-white.png);
+    background-image: url(../img/icons/coding-white.png);
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -229,7 +238,7 @@ body{
 }
 
 .psIcon{
-    background-image: url(/assets/img/icons/Ps.png);
+    background-image: url(../img/icons/Ps.png);
     background-repeat: no-repeat;
     height: 80px;
     width: 80px;
@@ -238,7 +247,7 @@ body{
 }
 
 .aiIcon{
-    background-image: url(/assets/img/icons/Ai.png);
+    background-image: url(../img/icons/Ai.png);
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -247,7 +256,7 @@ body{
 }
 
 .prIcon{
-    background-image: url(/assets/img/icons/Pr.png);
+    background-image: url(../img/icons/Pr.png);
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -256,7 +265,7 @@ body{
 }
 
 .vk{
-    background-image: url(/assets/img/icons/vk.png);
+    background-image: url(../img/icons/vk.png);
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
@@ -264,7 +273,7 @@ body{
 }
 
 .inst{
-    background-image: url(/assets/img/icons/instagram.png);
+    background-image: url(../img/icons/instagram.png);
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
@@ -272,7 +281,7 @@ body{
 }
 
 .email{
-    background-image: url(/assets/img/icons/email.png);
+    background-image: url(../img/icons/email.png);
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;

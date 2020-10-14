@@ -2,6 +2,7 @@
 
 
 <main>
+    <div class="main_page_background"></div>
     <h1>SakhGU News Block</h1>
     <div class="news_container">
         <div class="container">

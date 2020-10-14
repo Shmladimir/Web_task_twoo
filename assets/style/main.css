@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'ReemKufi' ;
-    src: url(/assets/fonts/ReemKufi-Regular.ttf);
+    src: url(../fonts/ReemKufi-Regular.ttf);
 }
 
 @font-face{
     font-family: 'ReenieBeanie' ;
-    src: url(/assets/fonts/ReenieBeanie-Regular.ttf);
+    src: url(../fonts/ReenieBeanie-Regular.ttf);
 }
 *{
     font-family: 'ReemKufi';
@@ -23,14 +23,6 @@ body{
 }
 
 
-header{
-    background-image: url(../img/backgrounds/bg-top.png);
-    
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 10px 0px;
-    
-}
 
 h1{
     color:black;
@@ -49,31 +41,51 @@ h3{
 
 
 /* MAIN BLOCK */
+
+.main_page_background{
+    position:initial;
+    top: 100px;
+    left: 0;
+    background-image: url(../img/backgrounds/bgg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;height: 100%;
+    /* height: 200px; */
+    z-index: 1;
+ 
+}
+
 main{
-    height: 800px;
+   
+    /* height: 800px; */
     width: 80%;
     background-color: #f3f3f3;
     box-shadow: 0px -5px 10px 10px #91919b;
     margin: 0 auto;
     margin-bottom: 50px;
-    margin-top: 200px;
+    margin-top: 70vh;
     padding: 20px 5%;
 }
 
 .news_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
+    margin: 40px auto;
     height: auto;
     background-color: gray;
-    width: 270px;
+    max-width: 40%;
+    min-width: 450px;
 
 }
 
 .news_foto{
     background-color: red;
     width: auto;
-    height: 70px;
+    min-height: 150px;
 }

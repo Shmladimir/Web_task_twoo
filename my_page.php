@@ -1,5 +1,6 @@
-<?php include"head.php" ?>
-<?php include"header.php"?>
+<?php require 'head.php'; ?>
+<body>
+<?php include 'header.php'; ?> 
 
 <div class="my_page_header">
     <div></div>
@@ -79,3 +80,5 @@
     </div>
 
 </div>
+
+</body>
