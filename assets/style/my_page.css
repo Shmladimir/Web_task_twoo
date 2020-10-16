@@ -16,9 +16,6 @@
     font-weight: lighter;
 }
 
-.my_page_header>.top_nav>a:hover{
-    transition: 1s;
-}
 
 h5{
     font-size: 19pt;
@@ -79,14 +76,7 @@ body{
     font-size: 10pt;
 }
 
-.my_page_header>.top_nav>ul>li:hover{
-    font-size: 11pt;
-    transition: 0.1s;
-    padding: 9px;
-}
-
 .avatar{
-
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

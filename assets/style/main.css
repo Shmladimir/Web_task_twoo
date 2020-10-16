@@ -35,57 +35,106 @@ h3{
     font-size: 1em;
 }
 
-
-/*TOP NAV*/
-
-
-
 /* MAIN BLOCK */
 
-.main_page_background{
-    position:initial;
-    top: 100px;
+/*.main_page_background{*/
+/*    position:initial;*/
+/*    top: 100px;*/
+/*    left: 0;*/
+/*    background-image: url(../img/backgrounds/bgg.png);*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+
+/*    z-index: 1;*/
+/* */
+/*}*/
+
+.top_bg{
+    position: absolute;
+    top: -100px;
     left: 0;
-    background-image: url(../img/backgrounds/bgg.png);
+    z-index: -1;
+    background-image: url(../img/backgrounds/kartinki24_islands_2037.jpg);
+    width: 100%;
+    height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;height: 100%;
-    /* height: 200px; */
-    z-index: 1;
- 
+    background-position: center;
 }
+.welcome_logo{
+    background-image: url(../img/icons/welcome.png);
+    height: 400px;
+    width: 400px;
 
-main{
-   
+    position: absolute;
+    top: 270px;
+    left: calc(50vw - 400px / 2);
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_main_block{
+    color: black;
     /* height: 800px; */
     width: 80%;
-    background-color: #f3f3f3;
+    background-color: #e2e2e2;
     box-shadow: 0px -5px 10px 10px #91919b;
     margin: 0 auto;
     margin-bottom: 50px;
     margin-top: 70vh;
     padding: 20px 5%;
+
+}
+
+
+.news_main_block>h1{
+    margin: 10px;
+    font-size: 3em;
 }
 
 .news_container{
-    display: flex;
-    flex: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.container{
-    margin: 40px auto;
     height: auto;
-    background-color: gray;
-    max-width: 40%;
-    min-width: 450px;
+    margin: 20px;
 
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    /*gap: 10px 20px;*/
+    /*grid-template-areas:*/
+    /*  ". ."*/
+    /*  ". ."*/
+    /*  ". .";*/
 }
 
-.news_foto{
-    background-color: red;
-    width: auto;
-    min-height: 150px;
+.title{
+    padding-left: 20px;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.news_text{
+    font-size: 12pt;
+    font-weight: 100;
+}
+
+.container {
+    padding: 5px;
+    /*background-color: #f0f0f0;*/
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 20px 10%;
+    background-color: #eeeeee;
+
+}
+.newsPhoto{
+    height: 150px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
 }

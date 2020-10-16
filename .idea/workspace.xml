@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="658a60d4-1c17-4d06-a9e3-dc85c5889754" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iqlS3WCqmS3YAkWcHvDp9EnsmY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program F\OpenServer\OpenServer\domains\web2\assets\img" />
+      <recent name="D:\Program F\OpenServer\OpenServer\domains\web2\assets\img\icons" />
+      <recent name="D:\Program F\OpenServer\OpenServer\domains\web2\assets\fonts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="658a60d4-1c17-4d06-a9e3-dc85c5889754" name="Default Changelist" comment="" />
+      <created>1602642998879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602642998879</updated>
+      <workItem from="1602642999909" duration="5515000" />
+      <workItem from="1602732777534" duration="699000" />
+      <workItem from="1602811421254" duration="7912000" />
+      <workItem from="1602841104998" duration="6368000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="502" y="194" key="#Inspections" timestamp="1602643132335">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="502" y="194" key="#Inspections/0.0.1920.1050/1920.-844.1080.1890@0.0.1920.1050" timestamp="1602643132335" />
+    <state x="99" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602812119163">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="99" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.-844.1080.1890@0.0.1920.1050" timestamp="1602812119163" />
+    <state x="710" y="439" key="NewPhpFileDialog" timestamp="1602832017909">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="710" y="439" key="NewPhpFileDialog/0.0.1920.1050/1920.-844.1080.1890@0.0.1920.1050" timestamp="1602832017909" />
+  </component>
+</project>

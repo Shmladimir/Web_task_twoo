@@ -1,0 +1,22 @@
+main.teacher_main_block{
+
+    color: black;
+    /* height: 800px; */
+    width: 80%;
+    background-color: #e2e2e2;
+    box-shadow: 0px -5px 10px 10px #91919b;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20vh;
+    padding: 20px 5%;
+}
+
+.teacherPhoto{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}

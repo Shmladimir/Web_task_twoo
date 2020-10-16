@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,10 +14,16 @@
     <link rel="stylesheet" href="./assets/style/main.css">
     <link rel="stylesheet" href="./assets/style/header.css">
     <link rel="stylesheet" href="./assets/style/my_page.css">
+    <link rel="stylesheet" href="./assets/style/about_teacher.css">
 </head>
 <body>
-    <?php include "header.php" ?>
-    
+    <?php include_once "header.php" ?>
+<!--    --><?php
+//        if ( basename('index.php') == true )
+//        {
+//            require_once('main_page_block.php');
+//        }
+//     ?>
     <? if (isset($_GET['mainPage'])) { require_once('main_page_block.php'); }?>
     <? if (isset($_GET['myPage'])) { require_once('my_page.php'); }?>
     <? if (isset($_GET['schedule'])) { require_once('schedule.php'); }?>
